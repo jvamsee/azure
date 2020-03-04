@@ -23,7 +23,11 @@
 > https://adamtheautomator.com/powershell-scripts-azure-devops-pipelines/
 
 
-# POWERSHELL
+
+
+## POWERSHELL
+> https://adamtheautomator.com/tag/powershell/
+
 ### Back to Basics: The PowerShell foreach Loop
 > https://adamtheautomator.com/powershell-foreach/
 
