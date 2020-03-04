@@ -4,5 +4,5 @@
 
 
 # AZURE PIPELINES
-## Building an Azure DevOps Pipeline [Soup to Nuts]
-- <https://adamtheautomator.com/azure-devops-pipeline-infrastructure/>
+### Building an Azure DevOps Pipeline [Soup to Nuts]
+> <https://adamtheautomator.com/azure-devops-pipeline-infrastructure/>
