@@ -50,3 +50,5 @@ You can check for the currently installed version of PowerShellGet with the foll
 Get-Module -Name PowerShellGet -ListAvailable | Select-Object -Property Name, Version, Path
 ```
 
+![](https://www.virtualizationhowto.com/wp-content/uploads/2019/03/Installing-the-latest-version-fo-PowerShellGet.png)
+
