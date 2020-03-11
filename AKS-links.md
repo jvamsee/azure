@@ -11,7 +11,7 @@
 
 ## Deploying Spring Boot with Database in Azure Kubernetes Service (AKS)
 - https://ordina-jworks.github.io/cloud/2019/08/05/deploy-spring-boot-kubernetes.html
-- 
+- https://medium.com/swlh/deploying-spring-boot-applications-15e14db25ff0 (Recommended)
 - https://medium.com/@raghavendra.pes/kubernetes-deploying-angular-spring-boot-application-in-microsoft-azure-cloud-dd8fb63419c5
 - https://medium.com/@fandygotama/deploying-spring-boot-kotlin-with-mysql-in-azure-kubernetes-service-aks-83ef8e334401
 - https://www.baeldung.com/spring-boot-azure
