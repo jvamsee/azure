@@ -21,23 +21,10 @@ It connects the Web browser of computer to the DNS name servers.
 
 
 # --------------------------------------------------------
+###### - https://github.com/linode/docs/edit/master/docs/networking/dns/dns-records-an-introduction/index.md
+###### - https://www.linode.com/docs/networking/dns/dns-records-an-introduction/#how-dns-works
 
----
-author:
-  name: Linode
-  email: docs@linode.com
-description: 'Learn about DNS records and system structure.'
-keywords: ["dns", "record", "domain", "resolution"]
-license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
-aliases: ['dns-guides/introduction-to-dns-records/','dns-guides/introduction-to-dns/','networking/dns/introduction-to-dns-records/']
-modified: 2018-05-22
-modified_by:
-  name: Linode
-published: 2009-07-29
-title: "DNS Records: An Introduction"
----
-
-![DNS Records: an Introduction](dns-records-an-introduction.png "DNS Records: an Introduction")
+ # DNS Records: An Introduction"---
 
 The [Domain Name System](https://en.wikipedia.org/wiki/Domain_Name_System) (DNS) is the Internet's address book. DNS directs web traffic to your Linode and email to your inbox by mapping memorable domain names like `example.com` to IP addresses like `192.0.2.8` or `0123:4567:89ab:cdef:0123:4567:89ab:cdef`. This guide introduces basic DNS concepts and the different types of DNS records.
 
