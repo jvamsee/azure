@@ -1,0 +1,31 @@
+apiVersion: networking.k8s.io/v1beta1
+kind: Ingress
+metadata:
+  name: ratings-web-ingress
+  annotations:
+    kubernetes.io/ingress.class: nginx
+    cert-manager.io/cluster-issuer: letsencrypt
+spec:
+  tls: 
+    - hosts: 
+      # - frontend.<ingress ip>.nip.io  # IMPORTANT: update <ingress ip> with the dashed public IP of your ingress, for example frontend.13.68.177.68.nip.ip
+      - frontend.52.146.82.159.nip.io  # IMPORTANT: update <ingress ip> with the dashed public IP of your ingress, for example frontend.13.68.177.68.nip.ip
+      - devopssource.com
+      secretName: ratings-web-cert
+      
+  rules:
+  # - host: frontend.<ingress ip>.nip.io  # IMPORTANT: update <ingress ip> with the dashed public IP of your ingress, for example frontend.13.68.177.68.nip.ip
+  - host: frontend.52.146.82.159.nip.io  # IMPORTANT: update <ingress ip> with the dashed public IP of your ingress, for example frontend.13.68.177.68.nip.ip  
+    http:
+      paths:
+      - backend:
+          serviceName: ratings-web
+          servicePort: 80
+        path: /
+  - host: devopssource.com  
+    http:
+      paths:
+      - backend:
+          serviceName: ratings-web
+          servicePort: 80
+        path: /
